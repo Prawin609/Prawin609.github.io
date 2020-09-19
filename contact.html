@@ -1,0 +1,124 @@
+<!doctype>
+<html lang="en">
+    <head>
+        <title>Travelogue - Contact</title>
+        <link rel="stylesheet" href="css/project.css">
+        <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+        <link href="css/contact.css" rel="stylesheet">
+        <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+        
+        
+    </head>
+    
+    <body id="wrapper">
+        <header>
+            <div class="head_container">
+                <img src="images/logo.PNG" width="200px" height="100px">
+                <h1>Travelogue</h1>
+            </div>
+            
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="rating.html">Ratings</a>
+            <a href="information.html">Explore</a>
+            <a href="weather.html">Weather</a>
+            <a href="contact.html">Contact</a>
+        
+        </nav>
+        <main>
+            <form action="response.html" method="get"
+    	name="reservation_form" id="reservation_form">
+        <fieldset>
+        	<legend>General Information</legend>
+        	<label for="arrival_date">Arrival date:</label>
+        	<input type="date" name="arrival_date" id="arrival_date" autofocus>
+        	<span>*</span><br>
+        	<label for="nights">Nights:</label>
+        	<input type="text" name="nights" id="nights">
+        	<span>*</span><br>
+        	<label>Adults:</label>
+        	<select name="adults" id="adults">
+        		<option value="1">1</option>
+        		<option value="2">2</option>
+        		<option value="3">3</option>
+        		<option value="4">4</option>        		        		        		
+        	</select><br>
+        	<label>Children:</label>
+        	<select name="children" id="children">
+        		<option value="0">0</option>
+        		<option value="1">1</option>
+        		<option value="2">2</option>
+        		<option value="3">3</option>
+        		<option value="4">4</option>        		        		        		
+        	</select><br>        	
+		</fieldset>
+		<fieldset>
+        	<legend>Flight Details</legend>
+        	<label>Ticket type:</label>
+			<input type="radio" name="room" id="standard" class="left" checked><span class="left">Economy</span>&nbsp;&nbsp;&nbsp;	        	
+			<input type="radio" name="room" id="business" class="left"><span class="left">Business</span>&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="room" id="suite" class="left last"><span class="left">Club Class</span><br>
+		</fieldset>		
+		<fieldset>
+    		<legend>Contact Information</legend>
+    		<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+			<span>*</span><br>
+        	<label for="email">Email:</label>
+        	<input type="text" name="email" id="email">
+        	<span>*</span><br>
+			<label for="phone">Phone:</label>
+			<input type="text" name="phone" id="phone" placeholder="999-999-9999">
+			<span>*</span><br>
+		</fieldset>
+
+		<input type="submit" id="submit" value="Submit Request"> &nbsp;
+        <input type="reset" id="reset" value="Reset"><br>
+
+	</form>
+            
+        </main>
+        <footer role="contentinfo">
+            <div class="footer_container">
+                <div class="footer_align">
+                    <p class="footer">Travelogue</p>
+                    <p class="justify">115 Kehl Street<br>
+                    Waterloo, Canada<br>
+                    Connect us on</p>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="img" src="images/facebook.png" height="25px" width="25px">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="img" src="images/instagram.png" height="25px" width="25px">
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img class="img" src="images/whatsapp.png" height="25px" width="25px">
+                    </a>
+                </div>
+                
+        
+                <div class="footer_align">
+                    <p class="footer">Tours</p>
+                    <p class="justify">Canada<br>
+                    Europe<br>
+                    Australia</p>   
+                </div>
+                
+                <div class="footer_align">
+                    <p class="footer">Resorts</p>
+                    <p class="justify">Holydays Inn<br>
+                    Brookefields<br>
+                    North Field</p>
+                </div>
+                
+            </div>
+            <p class="i_allign">Copyright &copy; 2020 Travelogue. | All rights reserved</p>
+        </footer>
+        <script src="js/contact.js"></script>
+    </body>
+
+
+
+
+</html>

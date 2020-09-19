@@ -1,0 +1,109 @@
+.title{
+	color: lime;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+nav>a{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 1px 1px white;
+    transition: text-shadow .5s;
+    
+}
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text_field{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: #01a3a4;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+
+
+.div_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 10px;;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: white;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.update{
+	background-color: black;
+	color: #01a3a4;
+	font-size: 1.5em;
+	font-family: 'Hind', sans-serif;
+	margin: 10px;
+	cursor: pointer;
+    padding: 5px;
+}
+
+.delete{
+	background-color: black;
+	color: orangered;
+	font-size: 1.5em;
+    padding: 5px;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+.delete:hover{
+	opacity: 0.8;
+}
+.update:hover{
+	opacity: 0.8;
+}
+.add:hover{
+	opacity: 0.8;
+}
+.span_date{
+    background-color: black;
+	color: #01a3a4;
+	font-size: 1.5em;
+	font-family: 'Hind', sans-serif;
+	margin: 10px;
+	cursor: pointer;
+    padding: 5px;
+}
+.align{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}

@@ -1,0 +1,119 @@
+main *{
+/*    color: white;*/
+    font-family: sans-serif;
+}
+fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+nav>a{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-shadow: 1px 1px white;
+    transition: text-shadow .5s;
+    
+}
+legend {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+label {
+	float: left;
+    width: 90px;
+    color: white;
+    font-size: 1em;
+}
+.left{
+    color: white;
+}
+input, select {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+input {
+    width: 14em;
+}
+input.left {
+	width: 1em;
+	padding-left: 0;
+}
+p {
+	margin-top: 0;
+	margin-bottom: .5em;
+}
+input.last {
+	margin-bottom: 1em;
+}
+#adults, #children {
+	width: 35px;
+}
+#smoking {
+	width: 1em;
+	margin-left: 0;
+}
+#submit {
+	margin-left: 0;
+	width: 10em;
+}
+#reset {
+    background-color: red;
+	margin-left: 0;
+	width: 10em;
+}
+span {
+	color: red;
+}
+
+
+/* contact */
+input[type=text] {
+  width: 50%;
+  padding: 10px 18px;
+  margin: 8px 0;
+    margin-left: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 50%;
+  padding: 10px 18px;
+  margin: 8px 0;
+    margin-left: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit],input[type=reset] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form fieldset label{
+    width: 100%;
+  padding: 0.5em;
+    font-size: 1.3em;
+}
+form fieldset{
+    -webkit-box-shadow: 0px 3px 5px 6px #ccc;
+}
+form fieldset input,form fieldset input:focus {
+    --focus: 2px rgba(39, 94, 254, .25);
+  background-color:  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}

@@ -1,0 +1,119 @@
+<!doctype>
+<html lang="en">
+    <head>
+        <title>Travelogue - Information</title>
+        <link href="css/smoothness/jquery-ui-1.8.23.custom.css" type="text/css" rel="stylesheet">
+        <link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" href="css/project.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+        <script src="js/library_trip.js"></script>
+        
+    </head>
+    
+    <body id="wrapper">
+        <header>
+            <div class="head_container">
+                <img src="images/logo.PNG" width="200px" height="100px">
+                <h1>Travelogue</h1>
+            </div>
+            
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="rating.html">Rating</a>
+            <a href="information.html">Explore</a>
+            <a href="weather.html">Weather</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <main>
+            <div class="info_container">
+                
+            </div>
+            <section>
+		<h1 class="color">Calculate your trip to the provided destinations</h1>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Our Service Destination</a></li>
+                <li><a href="#tabs-2">Trip Calculator</a></li>
+            </ul>
+            <div id="tabs-1">
+                <ul>
+                    <li>Ottawa</li>
+                    <li>Toronto</li>
+                    <li>Montreal</li>
+                    <li>Waterloo</li>
+                    <li>Ooty</li>
+                    <li>Berlin</li>
+                    <li>Tokyo</li>
+                    <li>New York</li>
+                    <li>Paris</li>
+                    <li>London</li>
+                    <li>Dubai</li>
+                    <li>Melbourne</li>
+                </ul>
+            </div>
+            <div id="tabs-2">
+                <form id="trip_form" name="trip_form">
+                    <label for="Destiation">Destiation:</label>
+                    <input type="text" id="destiation" name="destiation" required><br>
+
+                    <label for="adult">No of Adults:</label>
+                    <input type="number" id="adult" name="adult" required><br>
+
+                    <label for="children">No of Children</label>
+                    <input type="number" id="children" name="children" required><br>
+
+
+                    <label for="total">Grand Total:</label>
+                    <input type="number" id="total" name="total" disabled><br>
+
+                    
+                    <label>&nbsp;</label>
+                    <button id="calculate" >Calculate</button>
+                    <input type="reset" id="reset" name="reset" value="Reset"><br>
+	           </form>
+            </div>
+        </div>
+    </section>
+        </main>
+        <footer role="contentinfo">
+            <div class="footer_container">
+                <div class="footer_align">
+                    <p class="footer">Travelogue</p>
+                    <p class="justify">115 Kehl Street<br>
+                    Waterloo, Canada<br>
+                    Connect us on</p>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class="img" src="images/facebook.png" height="25px" width="25px">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="img" src="images/instagram.png" height="25px" width="25px">
+                    </a>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <img class="img" src="images/whatsapp.png" height="25px" width="25px">
+                    </a>
+                </div>
+                
+        
+                <div class="footer_align">
+                    <p class="footer">Tours</p>
+                    <p class="justify">Canada<br>
+                    Europe<br>
+                    Australia</p>   
+                </div>
+                
+                <div class="footer_align">
+                    <p class="footer">Resorts</p>
+                    <p class="justify">Holydays Inn<br>
+                    Brookefields<br>
+                    North Field</p>
+                </div>
+                
+            </div>
+            <p class="i_allign">Copyright &copy; 2020 Travelogue. | All rights reserved</p>
+        </footer>
+    </body>
+        <script src="js/information.js"></script>
+
+</html>
